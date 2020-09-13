@@ -18,3 +18,17 @@ And if u lost the first level :
 If u complete the first level successfully and click y on your keyboard to play second level then the second level window look like this:
 
 ![level2 screenshot](https://user-images.githubusercontent.com/67695638/93024223-728e6400-f612-11ea-9ff6-bfa73af63040.png)
+
+How to play??!
+Hit spacebar to shoot the aliens and 
+And click the left arrow and right arrow button to move the spaceship.
+
+When u will loose the game:
+If any alien touches the spaceship or any alien touches the bottom of the window then the game will be over.(THIS IMPLIES FOR BOTH THE LEVELS)
+
+Installation required for this game:
+1)Install Python:
+https://www.python.org/downloads/
+2)Install Pygame:
+https://www.youtube.com/watch?v=EKjALzLLgVs
+
