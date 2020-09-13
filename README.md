@@ -25,7 +25,7 @@ Hit spacebar to shoot the aliens and
 And click the left arrow and right arrow button to move the spaceship left-side and right-side respectively.
 
 When u will loose the game??!
-If any alien touches the spaceship or any alien touches the bottom of the window then the game will be over.(THIS IMPLIES FOR BOTH THE LEVELS)
+If any alien touches the spaceship or any alien touches the bottom of the window then the game will be over.(FOR BOTH THE LEVELS)
 
 Installation required for this game:
 1)Install Python:
