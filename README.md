@@ -16,13 +16,13 @@ And if u lost the first level :
 ![level1 screenshot 2](https://user-images.githubusercontent.com/67695638/93024200-4377f280-f612-11ea-8dcc-1f1d074fdeab.png)
 
 
-If u complete the first level successfully and click y on your keyboard to play second level then the second level window look like this:
+If u complete the first level successfully and click y on your keyboard to play second level then the second level window will look like this:
 
 ![level2 screenshot](https://user-images.githubusercontent.com/67695638/93024223-728e6400-f612-11ea-9ff6-bfa73af63040.png)
 
 How to play??!
 Hit spacebar to shoot the aliens and 
-And click the left arrow and right arrow button to move the spaceship.
+And click the left arrow and right arrow button to move the spaceship left-side and right-side respectively.
 
 When u will loose the game??!
 If any alien touches the spaceship or any alien touches the bottom of the window then the game will be over.(THIS IMPLIES FOR BOTH THE LEVELS)
