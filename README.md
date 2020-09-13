@@ -17,3 +17,4 @@ And if u lost the first level :
 
 If u complete the first level successfully and click y on your keyboard to play second level then the second level window look like this:
 
+![level2 screenshot](https://user-images.githubusercontent.com/67695638/93024223-728e6400-f612-11ea-9ff6-bfa73af63040.png)
