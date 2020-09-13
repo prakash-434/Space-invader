@@ -12,4 +12,8 @@ If you complete the first level successfully :
 ![level1 screenshot 3](https://user-images.githubusercontent.com/67695638/93024164-ff84ed80-f611-11ea-8747-f5460d4b0aef.png)
 
 And if u lost the first level :
+![level1 screenshot 2](https://user-images.githubusercontent.com/67695638/93024200-4377f280-f612-11ea-8dcc-1f1d074fdeab.png)
+
+
+If u complete the first level successfully and click y on your keyboard to play second level then the second level window look like this:
 
