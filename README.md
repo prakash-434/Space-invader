@@ -12,6 +12,7 @@ If you complete the first level successfully :
 ![level1 screenshot 3](https://user-images.githubusercontent.com/67695638/93024164-ff84ed80-f611-11ea-8747-f5460d4b0aef.png)
 
 And if u lost the first level :
+
 ![level1 screenshot 2](https://user-images.githubusercontent.com/67695638/93024200-4377f280-f612-11ea-8dcc-1f1d074fdeab.png)
 
 
@@ -23,7 +24,7 @@ How to play??!
 Hit spacebar to shoot the aliens and 
 And click the left arrow and right arrow button to move the spaceship.
 
-When u will loose the game:
+When u will loose the game??!
 If any alien touches the spaceship or any alien touches the bottom of the window then the game will be over.(THIS IMPLIES FOR BOTH THE LEVELS)
 
 Installation required for this game:
