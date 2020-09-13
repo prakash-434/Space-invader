@@ -33,3 +33,10 @@ https://www.python.org/downloads/
 2)Install Pygame:
 https://www.youtube.com/watch?v=EKjALzLLgVs
 
+Note:
+Create level-one and level-two python file seperately
+
+Changes in the code on your end:
+Change url of images and audio and set as per ur file locations are.
+
+
