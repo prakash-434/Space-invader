@@ -1,5 +1,5 @@
 import pygame
-import secondlevel
+import leveltwo
 import os
 
 SHADOW = (192, 192, 192)
@@ -55,7 +55,7 @@ class Game:
                 for event in pygame.event.get():
                   if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_y:
-                      os.system('python secondlevel.py')
+                      os.system('python leveltwo.py')
                     if event.key == pygame.K_c:
                       pygame.quit()
 
@@ -94,7 +94,7 @@ class Game:
                       if event.type == pygame.KEYDOWN:
                         if event.key == pygame.K_y:
                           #exec(open(secondlevel).read())
-                          os.system('python secondlevel.py')
+                          os.system('python leveltwo.py')
                         if event.key == pygame.K_c:
                           pygame.quit()
                       
