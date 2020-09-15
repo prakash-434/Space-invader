@@ -1,6 +1,7 @@
 import pygame
 
 
+
 SHADOW = (192, 192, 192)
 WHITE = (255, 255, 255)
 LIGHTGREEN = (0, 255, 0 )
@@ -13,7 +14,7 @@ PURPLE = (102, 0, 102)
 LIGHTPURPLE= (153, 0, 153)
 
 image=pygame.image.load(r'C:\Users\Dell\Desktop\se\spaceshipnew.png')
-alien=pygame.image.load(r'C:\Users\Dell\Desktop\se\aliensecond.jpg')
+alien=pygame.image.load(r'C:\Users\Dell\Desktop\se\devilone.jpg')
 blue=pygame.image.load(r'C:\Users\Dell\Desktop\se\blueflame.jpg')
 
 #font = pygame.font.SysFont("comicsansms", 72)
@@ -57,12 +58,9 @@ class Game:
                 game_over=True
                 for event in pygame.event.get():
                   if event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_y:
-                      #background_image=pygame.image.load(r'C:\Users\Dell\Desktop\se\background.png')
-                      #self.screen.blit(background_image,[0,0])
-                      #game=Game(self.width,self.height)
-                     if event.key == pygame.K_c:
-                      pygame.quit()
+                      if event.key == pygame.K_c:
+                          pygame.quit()
+                     
 
             pressed = pygame.key.get_pressed()
             if pressed[pygame.K_LEFT]:  
@@ -85,7 +83,7 @@ class Game:
             for alien in self.aliens:
                 alien.draw()
                 alien.checkCollision(self)
-                if (alien.y > height-30):
+                if ((alien.y > height-30)or((alien.y+30>=hero.y+2)and(alien.x>=hero.x and alien.x<=hero.x+100))):
                     self.screen.fill(WHITE)
                     self.lost = True
                     self.displayText("YOU DIED:(")
@@ -136,10 +134,10 @@ class Alien:
 
     def draw(self):
         #pygame.draw.rect(self.game.screen,  
-                         #LIGHTBLUE, 
+                         #LIGHTBLUE,  
                          #pygame.Rect(self.x, self.y, self.size, self.size))
         self.game.screen.blit(alien,(self.x,self.y))
-        self.y += 0.2
+        self.y += 0.24
 
     def checkCollision(self, game):
         for rocket in game.rockets:
@@ -170,8 +168,8 @@ class Hero:
 
 class Generator:
     def __init__(self, game):
-        margin = 30  
-        width = 50   
+        margin = 30 
+        width = 50  
         for x in range(margin+20, game.width - margin, width-10):
             for y in range(margin, int(game.height / 2), width):
                 game.aliens.append(Alien(game, x, y))
