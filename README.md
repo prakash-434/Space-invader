@@ -34,7 +34,7 @@ https://www.python.org/downloads/
 https://www.youtube.com/watch?v=EKjALzLLgVs
 
 Note:
-Create levelone and leveltwo python file seperately
+Create levelone and leveltwo python file seperately.
 Name of the seondlevel python file must be leveltwo.
 
 Changes in the code on your end:
