@@ -18,7 +18,7 @@ And if u lost the first level :
 
 If u complete the first level successfully and click y on your keyboard to play second level then the second level window will look like this:
 
-![level2 screenshot](https://user-images.githubusercontent.com/67695638/93024223-728e6400-f612-11ea-9ff6-bfa73af63040.png)
+![leveltwo ss](https://user-images.githubusercontent.com/67695638/93251750-35f96e80-f7b2-11ea-8eb9-e8e35dce5035.png)
 
 How to play??!
 Hit spacebar to shoot the aliens and 
